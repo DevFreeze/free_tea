@@ -1,22 +1,20 @@
 ---
 name: 'Logic: Service implementation'
 about: Standard template for Service implementation issues
-title: ''
+title: 'Logic: (Implement/Update) the [CamelCaseService]'
 labels: ''
 assignees: ''
 
 ---
 
-Mason soll genutzt werden:
+The service class with the respective [GET, POST, PUT, DELETE] methods of the endpoint [add endpoint] should be implemented.
 
-Zuerst werden die Requests und Responses erstellt.
+Link to endpoint documentation: [add link]
 
-Request -> toJson + toString
-Respone -> fromJson
+1. generate the request and response models (see: {mason link})
 
-Kriegen einfach die ganzen Parameter, die benötigt werden.
+2. generate the class with the necessary functions and the previously generated request and response models (see: {mason link})
 
+OR
 
-Danach wird der Service generiert/aktualisiert mit den Funktionen zu den entsprechenden HTTP Methoden.
-
-Die jeweiligen Funktionen erwarten dann immer einen Namen, einen Endpunkt, Request und Response
+2. update an existing service class with an additional function and its request and response models (see: {mason link})
