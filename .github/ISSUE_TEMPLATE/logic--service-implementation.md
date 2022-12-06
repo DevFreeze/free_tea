@@ -1,13 +1,13 @@
 ---
 name: 'Logic: Service implementation'
 about: Standard template for Service implementation issues
-title: 'Logic: (Implement/Update) the [CamelCaseService]'
+title: 'Logic: [Implement/Update] the [CamelCaseService]'
 labels: ''
 assignees: ''
 
 ---
 
-The service class with the respective [GET, POST, PUT, DELETE] methods of the endpoint [add endpoint] should be implemented.
+The service class with the respective [GET, POST, PUT, DELETE] methods of the endpoint [add endpoint] should be [implemented/updated].
 
 Link to endpoint documentation: [add link]
 
